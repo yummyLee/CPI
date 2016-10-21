@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="43dp"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:paddingBottom="9dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="9dp">
+
+    <ImageView
+        android:id="@+id/ll_left_menu_list_item_icon"
+        android:layout_width="2dp"
+        android:layout_height="16dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="12dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/list_item_icon_default" />
+
+    <TextView
+        android:id="@+id/ll_left_menu_list_item_name"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="首页"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/ll_left_menu_list_item_eng_name"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="HOME"
+        android:textColor="@color/black"
+        android:textSize="12dp" />
+
+</LinearLayout>

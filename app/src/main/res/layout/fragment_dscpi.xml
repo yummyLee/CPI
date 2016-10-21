@@ -1,0 +1,244 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.qq985.cpi.Function.calendar.DSCPI">
+
+    <RelativeLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+
+            android:layout_alignParentStart="true"
+
+            android:layout_marginTop="276dp"
+            android:src="@drawable/p2">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:id="@+id/imageButton"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:clickable="true"
+                android:src="@drawable/back_down"
+                android:state_pressed="true" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="197dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2016"
+                android:textColor="@color/lightcoral"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imageButton2"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/imageView"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:rotation="180"
+                android:src="@drawable/back_down"
+                android:state_pressed="true" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="73dp"
+                android:columnCount="3"
+                android:gravity="center"
+                android:rowCount="4">
+
+                <Button
+                    android:id="@+id/buttonl"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_marginBottom="2.5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:background="@drawable/btn_register"
+                    android:text="1月"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/buttonPane2"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_marginBottom="2.5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:background="@drawable/btn_register"
+                    android:text="2月"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/buttonPane3"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_marginBottom="2.5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:background="@drawable/btn_register"
+                    android:text="3月"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/buttonPane4"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_marginBottom="2.5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:background="@drawable/btn_register"
+                    android:text="4月"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/buttonPane5"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_marginBottom="2.5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:background="@drawable/btn_register"
+                    android:text="5月"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/buttonPane6"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_marginBottom="2.5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:background="@drawable/btn_register"
+                    android:text="6月"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/buttonPane7"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_marginBottom="2.5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:background="@drawable/btn_register"
+                    android:text="7月"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/buttonPane8"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_marginBottom="2.5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:background="@drawable/btn_register"
+                    android:text="8月"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/buttonPane9"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_marginBottom="2.5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:background="@drawable/btn_register"
+                    android:text="9月"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/buttonPane1l"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_marginBottom="2.5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:background="@drawable/btn_register"
+                    android:text="11月"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/buttonPanel2"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_marginBottom="2.5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:background="@drawable/btn_register"
+                    android:text="12月"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+
+                <Button
+                    android:id="@+id/buttonPanel0"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_marginBottom="2.5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2.5dp"
+                    android:background="@drawable/btn_register"
+                    android:text="10月"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp" />
+
+
+            </GridLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:text="\@support by chenfeilong"
+            android:textColor="@color/lightcoral"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+
+</FrameLayout>

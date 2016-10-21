@@ -1,0 +1,54 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/aliceblue"
+    tools:context="com.example.qq985.cpi.Extras.Settings">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".UserInfo">
+
+        <ProgressBar
+            android:id="@+id/pb_talk_refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+            <com.handmark.pulltorefresh.library.PullToRefreshListView
+                android:id="@+id/plv_talk_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+            </com.handmark.pulltorefresh.library.PullToRefreshListView>
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/fab_talk_add_problem"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_add_problem" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

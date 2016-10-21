@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lavender"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="127dp">
+
+    <TextView
+        android:id="@+id/tv_tpd_problem_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:padding="12dp"
+        android:text="Recovery模式指的是一种可以对安卓机内部的数据或系统进行修改的模式，我们一般称其为恢复模式。在这个模式下我们可以刷入新的安卓系统，或者对已有的系统进行备份或升级，也可以在此恢复出厂设置。
+
+说简单一点，我们可以把recovery想象成一个工具，你只有使用这个工具才可以进行刷机，备份，恢复出厂设置等操作。
+
+recovery分为官方和第三方
+
+官方对recovery进行了限制，所以一般官方的recovery只能刷官方的升级文件和固件，一般不能做其他事情
+第三方recovery是第三方的开发者制作的，从而破解了官方的限制
+我们可以用recovery做任何事，不如刷第三方系统，ROOT，补丁，升级等等。" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightgray"
+        android:text="所有回复"
+        android:padding="2dp"
+        android:gravity="center"
+        android:textSize="11dp" />
+
+</LinearLayout>

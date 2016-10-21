@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+    defaultConfig {
+        applicationId "com.example.qq985.cpi"
+        minSdkVersion 23
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile files('libs/mysql-connector-java-3.1.14-bin.jar')
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':PullToRefresh')
+    compile files('libs/android-support-design.jar')
+    compile files('libs/jiecaovideoplayer-4.6.4-javadoc.jar')
+    compile files('libs/jiecaovideoplayer-4.6.4-sources.jar')
+    testCompile 'junit:junit:4.12'
+    compile files('libs/picasso-2.5.1-sources.jar')
+
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.jakewharton:butterknife:7.0.0'
+    compile 'com.android.support:support-v4:23.4.0'
+    compile 'fm.jiecao:jiecaovideoplayer:4.7.0'
+    compile 'com.squareup.picasso:picasso:2.3.2'
+    testCompile 'junit:junit:4.12'
+}

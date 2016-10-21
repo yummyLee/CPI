@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:weightSum="1" >
+
+            <fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard
+                android:id="@+id/custom_videoplayer_standard"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+            </fm.jiecao.jcvideoplayer_lib.JCVideoPlayerStandard>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none">
+
+                <TextView
+                    android:textColor="@color/lightcoral"
+                    android:padding="12dp"
+                    android:gravity="center_horizontal"
+                    android:text="大撒旦撒旦哈市劳动局萨拉肯德基阿萨德卡洛斯就打开拉萨机读卡三季度卡司机打开拉萨将打开手机打开拉萨觉得卡了阿斯科利的将阿克苏来得及啊卡洛斯就打开拉萨机"
+                    android:textSize="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView" />
+            </ScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
